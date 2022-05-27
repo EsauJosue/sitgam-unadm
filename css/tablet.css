@@ -1,0 +1,265 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.hidden {
+  display: none !important;
+}
+.content .contentSection__triangle-left,
+.content .contentSection__triangle-right {
+  display: none;
+}
+.content .slideContent__box {
+  top: 100px;
+}
+.content .slideContent__box__sections {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 100px;
+}
+.content .slideContent__box__sections a {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.content .contentSectionTablet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 600px;
+  margin: 60px auto;
+  color: #00476d;
+  font-size: 5.5rem;
+}
+.content #contentSectionTablet__exp h2 {
+  background-color: #fd641d;
+  color: #ffffff;
+  padding: 40px;
+  font-size: 6rem;
+}
+.content #contentSectionTablet__exp p {
+  line-height: 4.5rem;
+  border-bottom: 2px solid #fd641d;
+  padding: 20px 0;
+  margin-left: 20px;
+}
+.content #contentSectionTablet__sol p strong {
+  border-top: 3px solid #fd641d;
+}
+.content #contentSectionTablet__ef p strong {
+  border-top: 3px solid #fd641d;
+}
+.content #contentSectionTablet__expert {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.content #contentSectionTablet__expert p {
+  line-height: 5rem;
+  font-weight: 300;
+}
+.content #contentSectionTablet__expert p strong {
+  font-weight: 800;
+}
+.content #contentSectionTablet__expert a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 2rem;
+  background-color: #fd641d;
+  padding: 10px 30px;
+  font-weight: 300;
+  border-radius: 10px;
+}
+.content #contentSectionTablet__inst p {
+  line-height: 6rem;
+  border: 2px solid #fd641d;
+  padding: 20px 40px;
+}
+.content .contentSection__article__txt {
+  background-color: rgba(34, 34, 34, 0.6);
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: auto;
+  margin: 10px 30px;
+  top: 70px;
+}
+.content .contentSection__article__txt p {
+  color: #ffffff;
+  font-size: 2rem;
+  margin: 40px 20px 2px 20px;
+  top: 70px;
+  border-bottom: 1px solid #fd641d;
+  width: 60%;
+  text-align: left;
+  font-weight: 600;
+}
+.content .contentSection__article__txt a {
+  color: #ffffff !important;
+  background-color: #00476d;
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-weight: 100;
+  padding: 5px 40px;
+  /* margin: 2px 20px 10px 20px; */
+  width: 195px;
+}
+.empresa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.empresa .parrafo {
+  text-align: justify;
+  padding-left: 0;
+}
+.empresa__content {
+  margin-left: 40px;
+}
+.empresa__flag {
+  -webkit-clip-path: none;
+          clip-path: none;
+  height: 50px;
+  width: 400px;
+  margin-left: 40px;
+}
+.empresa__mision {
+  margin-left: 40px;
+}
+.empresa__vision {
+  margin-left: 40px;
+}
+.empresa__valores {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-bottom: 2px solid #fd641d;
+}
+.empresa__valores ul {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+footer .footer__header {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas: unset;
+      grid-template-areas: "phone cellphone email";
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-family: 'Inter', sans-serif;
+  padding: 20px 10px;
+}
+footer .footer__header__phone {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: phone;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .footer__header__cellphone {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: cellphone;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .footer__header__email {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: email;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .footer__body {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footer__body-logo {
+  display: none;
+}
+footer .footer__body-links h2 {
+  text-align: left;
+}
+footer .footer__body-links li {
+  margin: 0;
+  text-align: left;
+}
+footer .footer__body-socialmedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 400px;
+}
+footer .footer__body-socialmedia #logoFooter {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  margin: 10px 0;
+}
